@@ -1,0 +1,72 @@
+Java Programming
+- High Level
+- Open Source
+- Platform Independent
+  - WORA - Write Once Run Anywhere
+- OOPS - Object Oriented Programming
+
+Types of Programming
+- Procedural	- C
+- Object Oriented	- C++ / Java
+- Functional	- Python / php / Javascript
+---------------------------------------------------------------
+Core Java
+- Basics - Variables / Data Types
+- Loops and If Else / Switch Case
+- OOPS & its Principles
+- Array / Strings
+- File Handling
+- Chat Application
+  - Networking
+  - Multi-threading
+  - JDBC - Database
+  - Swing - Desktop App Development - GUI (Graphical User Interface)
+  - Exception Handling
+---------------------------------------------------------------
+Installation of Java
+- Download and install JDK
+
+---------------------------------------------------------------
+First Program in Java
+- Every program of Java starts with a class
+- Class Name should start with capital letter
+- Class Name cannot start with a number or any other special character except _ and $
+- Class Name must be same as file Name
+
+To compile java program
+- javac ClassName.java
+
+To interpret java program
+- java ClassName
+
+Why main is public ?
+- because JVM search for main method and if main method is public than only JVM can access that
+Why main is static ?
+- because static variables and methods are loaded with class so main must be loaded with class because main is the entry point of our program...
+Why main is void ?
+- because main returns nothing in Java...
+Why we pass String args[] in main ?
+- so that we can pass command line arguments
+
+What is System ?
+  - System class is used for 3 purpose
+     - Print something on output	- System.out
+     - Take Input from user		- System.in
+     - Print error on output		- System.err
+  - For printing anything java has PrintStream Class
+  - For taking input java has InputStream Class
+What is out ?
+  - out is an instance of PrintStream Class
+What is println/print ?
+  - println is a method that is defined inside PrintStream class and we access it through out
+
+
+
+
+
+
+
+
+
+
+
