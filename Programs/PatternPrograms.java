@@ -70,6 +70,47 @@ public class PatternPrograms {
             }
             System.out.println();
         }
+
+        // 55555
+        // 4444
+        // 333
+        // 22
+        // 1
+        for(int i = 5; i > 0; i--) {
+            for(int j = 0; j < i; j++) {
+                System.out.print(i);
+            }
+            System.out.println();
+        }
+
+
+        // 1
+        // 23
+        // 456
+        // 78910
+        int k = 0;
+        for(int i = 0; i < 4; i++) {
+            for(int j = 0; j < i+1; j++) {
+                k++;
+                System.out.print(k);
+            }
+            System.out.println();
+        }
+
+        //     *
+        //    ***
+        //   *****
+        //  *******
+        // *********
+        for(int i = 0; i < 5; i++) {
+            for(int j = 5; j > i; j--) {
+                System.out.print(' ');
+            }
+            for(int z = 0; z < 2 * i + 1; z++) {
+                System.out.print('*');
+            }
+            System.out.println();
+        }
         
     }
 }
