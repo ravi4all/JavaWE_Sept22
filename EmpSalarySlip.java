@@ -31,6 +31,9 @@ public class EmpSalarySlip {
         System.out.println("Enter your Name : ");
         this.name = scanner.nextLine();
         
+        EmpUtils utils = new EmpUtils();
+        name = utils.formatName(name);
+        
         System.out.println("Enter your Salary : ");
         this.basicSalary = scanner.nextDouble();
         
