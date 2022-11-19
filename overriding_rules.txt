@@ -1,0 +1,51 @@
+Overriding Rules
+- Weaker access rule
+
+  Access Specifier
+  - private
+  - default
+  - protected
+  - public
+
+  private < default < protected < public
+
+private - accessible only within class
+default - accessible inside package
+protected - accesssible anywhere using inheritance
+public - accessble anywhere
+
+
+Packages
+- folder that contains similar type of classes
+
+Name of package
+- com/org.
+- companyName.
+- projectName.
+- moduleName
+
+com.brainmentors.taskManager.users
+--------------------------------------------------------------------------
+TaskManager
+- User Module
+	- Login
+	- Register
+	- Caller
+- Task Module
+	- Task
+	- TaskCRUD
+- Utils
+
+
+
+
+
+
+
+
+
+
+
+- Covariant return type
+
+
