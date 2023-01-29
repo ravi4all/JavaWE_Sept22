@@ -12,3 +12,113 @@ Show Output
 Sum of N Natural Number Using Recursion
 Table of a Number
 Power of given number
+num = 2, pow = 8
+
+Count Digit in a number
+i/p : num = 3453
+o/p : 4, because there are 4 digits in number
+
+Count Number of Zero in a digit
+i/p : num = 1023001
+o/p : 3
+
+ArmStrong Number Using Recursion
+i/p : num = 153
+o/p : true
+
+Prime Number Using Recursion
+i/p : num = 17
+o/p : true
+
+Reverse a Number Using Recursion
+i/p : 1234
+o/p : 4321
+
+Check if a Number is Palindrome
+i/p : 1221
+o/p : true
+
+Pattern Programs
+
+*****
+*****
+*****
+*****
+*****
+
+*
+**
+***
+****
+*****
+
+*****
+****
+***
+**
+*
+
+HW
+1
+12
+123
+1234
+12345
+
+HW
+a
+ab
+abc
+abcd
+abcde
+
+HW
+1
+2 3
+4 5 6
+7 8 9 10
+
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+
+    *
+   ***
+  *****
+ *******
+*********
+
+HW
+*********
+ *******
+  *****
+   ***
+    *
+
+
+Frequency Count
+i/p - name = "ram sharma"
+o/p - {'r' : 2, 'a' : 3, 'm' : 2, 's' : 1, 'h' : 1}
+
+
+Replace Pi Values
+i/p : "3+pi*5-pi-pi"
+o/p : "3+3.14*5-3.14-3.14"
+
+
+Print Adjacent Star
+i/p : xyyxxyyxy
+o/p : xy*yx*xy*yxy
+
+i/p : yxyyyx
+o/p : yxy*y*yx*x
+
+
+Print all subsequences of a string
+i/p : String str = "ravi";
+o/p : "", "r", "a", "v", "i", "ra", "rv", "ri", "ai", "av", "vi", "rav", "rai", "rvi", "avi", "ravi"
+
+
