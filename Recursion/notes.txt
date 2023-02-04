@@ -108,17 +108,27 @@ Replace Pi Values
 i/p : "3+pi*5-pi-pi"
 o/p : "3+3.14*5-3.14-3.14"
 
-
 Print Adjacent Star
 i/p : xyyxxyyxy
 o/p : xy*yx*xy*yxy
-
 i/p : yxyyyx
 o/p : yxy*y*yx*x
-
 
 Print all subsequences of a string
 i/p : String str = "ravi";
 o/p : "", "r", "a", "v", "i", "ra", "rv", "ri", "ai", "av", "vi", "rav", "rai", "rvi", "avi", "ravi"
 
+Print all permutations
+i/p : "abc"
+o/p : ["abc","acb","bca","bac","cba","cab"]
 
+Dice Count
+
+Types of Recursion
+- Single Branch
+- Multi Branch
+
+Fibonacci Series
+
+Maze Path Problem
+Diagonal Maze Path
