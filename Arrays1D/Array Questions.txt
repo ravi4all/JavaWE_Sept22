@@ -1,0 +1,83 @@
+Array Questions
+
+1. Find max element in an array
+    i/p : [2,1,5,7,9,11]
+    o/p : 11
+
+2. Second Max element in an array - HW
+    i/p : [2,1,5,7,9,11]
+    o/p : 9
+
+3. Span of an array - HW
+    - find the difference b/w max and min element of an array
+
+4. Print Bar Chart
+    i/p : [2,1,3,5,0,7]
+
+5. Array is sorted or not - HW
+
+Two Pointer Approach
+6. Reverse an array
+    i/p : arr = [1,9,13,4,15,6]
+    o/p : [6,15,4,13,9,1]
+
+7. Pair Sum / Two Sum (LC : 1) - HW
+    i/p : arr = {2,1,5,6,3,7}, k = 11
+    o/p : 2,3
+    pair is 5 and 6
+
+8. Remove Duplicate From Sorted Array - HW
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+9. Find the leader element
+	i/p : arr[] = {9,3,8,5,7,4}
+	o/p : 4,7,8,9
+
+10. Rotate Array by One
+	i/p : arr[]  = {3,5,1,7,5,9}
+	o/p : {5,1,7,5,9,3}
+
+11. Rotate Array By K - HW
+https://leetcode.com/problems/rotate-array/
+
+12. Professor Party (Amazon)
+	Input : N = 5, A[] = {1, 2, 3, 4, 7}
+	Output : GIRLS
+	Input : N = 6, A[] = {1, 3, 2, 4, 5, 1}
+	Output : BOYS
+	https://practice.geeksforgeeks.org/problems/professor-and-parties2000/1
+
+13. Shaggy has a Frog Akki
+
+https://practice.geeksforgeeks.org/problems/pattern-jumping4855/1
+
+14. Array Addition
+15. Array Subtraction
+16. Zig Zag Array - a < b > c < d > e < f
+	Input: arr[] = {4, 3, 7, 8, 6, 2, 1} 
+	Output: arr[] = {3, 7, 4, 8, 2, 6, 1}
+	Input: arr[] = {1, 4, 3, 2} 
+	Output: arr[] = {1, 4, 2, 3}
+
+17. Stock Buy and Sell : LC - 121
+		Input: prices = [7,1,5,3,6,4]
+		Output: 5
+		Prefix Min
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
