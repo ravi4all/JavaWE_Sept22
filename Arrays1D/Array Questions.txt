@@ -75,17 +75,44 @@ https://leetcode.com/problems/rotate-array/
     - we have to print sum of every Subarray of size K
 24. LC : 1299 - Replace Elements with Greatest Element on Right Side
 
+25. Create Target Array in the Given Order
+	Input: nums = [0,1,2,3,4], index = [0,1,2,2,1]
+	Output: [0,4,1,3,2]
+	Explanation:
+	nums       index     target
+	0            0        [0]
+	1            1        [0,1]
+	2            2        [0,1,2]
+	3            2        [0,1,3,2]
+	4            1        [0,4,1,3,2]
 
+26. Binary Search
+27. Find nearest lowest and nearest greatest element in sorter array
+	i/p : arr[] = {10,15,20,30,35,40,45,50,60,67,70}, Search = 55
+	o/p : 50, 60
 
+28. Find first and last occurrence of an element from sorted array
+	i/p : arr[] = {1,2,3,3,4,4,4,6,8,11}, k = 4
+	o/p : 4,6
 
+29. Maximum sum of k consecutive elements
+	i/p : arr[] = {1,40,30,10,20,5}, k=3
+	o/p : 80
 
+Window Sliding Technique
 
+30. Subarray whose sum is equal to given sum
+	i/p : arr[] = {10,20,30,40,50,60,70,80,290}, sum = 90
+	o/p : true
 
+	- keep on adding elements in Window till WindowSum < target
+	- else - subtract the element from Window
 
+31. NBonacii Series
 
+	Fib Series - 0,1,1,2,3,5,8,13,21...
+	Tri Series - 0,0,1,1,2,4,7,13,24...
 
-
-
-
-
-
+32. Count distinct elements in window of k size
+	input - arr[] = {1,2,3,4,4,5,6,7,7}, Sliding = 4
+	
