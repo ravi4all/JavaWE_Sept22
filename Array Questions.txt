@@ -1,0 +1,207 @@
+Array Questions
+
+1. Find max element in an array
+    i/p : [2,1,5,7,9,11]
+    o/p : 11
+
+2. Second Max element in an array - HW
+    i/p : [2,1,5,7,9,11]
+    o/p : 9
+
+3. Span of an array - HW
+    - find the difference b/w max and min element of an array
+
+4. Print Bar Chart
+    i/p : [2,1,3,5,0,7]
+
+5. Array is sorted or not - HW
+
+Two Pointer Approach
+6. Reverse an array
+    i/p : arr = [1,9,13,4,15,6]
+    o/p : [6,15,4,13,9,1]
+
+7. Pair Sum / Two Sum (LC : 1) - HW
+    i/p : arr = {2,1,5,6,3,7}, k = 11
+    o/p : 2,3
+    pair is 5 and 6
+
+8. Remove Duplicate From Sorted Array - HW
+https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+9. Find the leader element
+	i/p : arr[] = {9,3,8,5,7,4}
+	o/p : 4,7,8,9
+
+10. Rotate Array by One
+	i/p : arr[]  = {3,5,1,7,5,9}
+	o/p : {5,1,7,5,9,3}
+
+11. Rotate Array By K - HW
+https://leetcode.com/problems/rotate-array/
+
+12. Professor Party (Amazon)
+	Input : N = 5, A[] = {1, 2, 3, 4, 7}
+	Output : GIRLS
+	Input : N = 6, A[] = {1, 3, 2, 4, 5, 1}
+	Output : BOYS
+	https://practice.geeksforgeeks.org/problems/professor-and-parties2000/1
+
+13. Shaggy has a Frog Akki
+	https://practice.geeksforgeeks.org/problems/pattern-jumping4855/1
+
+14. Array Addition
+15. Array Subtraction
+16. Zig Zag Array - a < b > c < d > e < f
+	Input: arr[] = {4, 3, 7, 8, 6, 2, 1} 
+	Output: arr[] = {3, 7, 4, 8, 2, 6, 1}
+	Input: arr[] = {1, 4, 3, 2} 
+	Output: arr[] = {1, 4, 2, 3}
+
+17. Stock Buy and Sell : LC - 121
+		Input: prices = [7,1,5,3,6,4]
+		Output: 5
+		Prefix Min
+
+18. Rain Water Trapping : LC-42
+	i/p : arr[] = {1,0,2,4,1,3,4}
+
+19. Majority Element - LC : 169
+20. Gas Station	- LC : 134
+21. How many numbers are smaller than current number ? : LC-1365
+22. LC : 769 - Max Chunks To Make Sorted
+23. LC : 560 - Subarray Sum Equals K
+    - Given an array on size N and also one integer K
+    - we have to print sum of every Subarray of size K
+24. LC : 1299 - Replace Elements with Greatest Element on Right Side
+
+25. Create Target Array in the Given Order
+	Input: nums = [0,1,2,3,4], index = [0,1,2,2,1]
+	Output: [0,4,1,3,2]
+	Explanation:
+	nums       index     target
+	0            0        [0]
+	1            1        [0,1]
+	2            2        [0,1,2]
+	3            2        [0,1,3,2]
+	4            1        [0,4,1,3,2]
+
+26. Binary Search
+27. Find nearest lowest and nearest greatest element in sorter array
+	i/p : arr[] = {10,15,20,30,35,40,45,50,60,67,70}, Search = 55
+	o/p : 50, 60
+
+28. Find first and last occurrence of an element from sorted array
+	i/p : arr[] = {1,2,3,3,4,4,4,6,8,11}, k = 4
+	o/p : 4,6
+
+29. Maximum sum of k consecutive elements
+	i/p : arr[] = {1,40,30,10,20,5}, k=3
+	o/p : 80
+
+Window Sliding Technique
+
+30. Subarray whose sum is equal to given sum
+	i/p : arr[] = {10,20,30,40,50,60,70,80,290}, sum = 90
+	o/p : true
+
+	- keep on adding elements in Window till WindowSum < target
+	- else - subtract the element from Window
+
+31. NBonacii Series
+
+	Fib Series - 0,1,1,2,3,5,8,13,21...
+	Tri Series - 0,0,1,1,2,4,7,13,24...
+
+32. Count distinct elements in window of k size
+	input - arr[] = {1,2,3,4,4,5,6,7,7}, Sliding = 4
+	
+33. Next Greater Element to the right
+34. Product of array except itself - Leetcode - 238
+
+============================================
+
+Array Strings
+
+Strings
+- Pre-defined class in Java
+- Strings are internally character array
+
+Suppose
+String name = "John"
+internally it becomes
+{'J', 'o', 'h', 'n'}
+
+1. String Palindrome or not
+	i/p : str = nitin
+	o/p : true
+
+2. Print all Palindrome Substrings
+	i/p : str = abccbc
+	o/p : a, b, c, bccb, cc, cbc
+
+3. Reverse String - HW
+	i/p : s = {'h', 'e', 'l', 'l', 'o'}
+	o/p : {'o', 'l', 'l', 'e', 'h'}
+
+4. Reverse vowels in a String
+	i/p : str = "hello"
+	o/p : holle
+
+5. Addition of two strings
+	i/p : s1 = "1234", s2 = "567"
+	o/p : 1801
+
+6. Multiply Strings
+	i/p : s1 = "123", s2 = "456"
+	o/p : 56088
+
+7. Reverse words in a String
+	LC : 151
+	Input: s = "the sky is blue"
+	Output: "blue is sky the"
+
+8. Run Length Encoding 
+	Input: str = aaaabbbccc
+	Output: a4b3c3
+
+9. Remove Duplicate Letters - LC : 316
+	Input: s = "bcabc"
+	Output: "abc"
+
+10. First Unique character - LC : 387
+
+11. Sort character by frequency - LC : 451
+	(Amazon, Paypal, Facebook, Google, Adobe, Yahoo, Microsoft, Oracle, Salesforce)
+
+12. Longest Substring Without Repeating Characters - LC : 3
+	Approach_1 = Using O(N3)
+	Approach_2 = Sliding Window
+
+13. String ATOI - String to integer - LC : 8
+	input : str = "42"
+	output : 42
+
+14. Roman to Integer - LC : 13
+	Input: s = "III"
+	Output: 3
+
+	Input: s = "LVIII"
+	Output: 58
+
+
+15. Integer to Roman - LC : 12
+16. String Pattern Matching
+	- Sliding Window
+	- Rabin Karp
+	- KMP
+
+17. Integer to English Words
+	i/p : 123
+	o/p : One Hundred Twenty Three
+
+18. Longest Common Prefix
+	Input: strs = ["flower","flow","flight"]
+	Output: "fl"
+
+	Better Approach - HW
