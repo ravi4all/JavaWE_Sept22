@@ -1,0 +1,28 @@
+LinkedList Questions
+
+- Dynamic memory allocation
+- Sequential access
+- Current node stores next node address
+
+Linked List CRUD
+- Add Element
+- Read All Elements
+- Remove Element
+- Update Element
+- Mid Point
+- Kth Node from left or from right
+- Revese of LinkedList
+- Detect Loop in a LinkedList
+- LinkedList Palindrome - LC : 234
+- Intersection of LinkedList  - LC : 160
+- Split a single LinkedList into two LinkedList in alternative fashion
+- LinkedList Palindrome P2 : madam - true
+- Merge two sorted LinkedList
+- Merge k sorted LinkedList
+- Split a circular Linked List in two halves
+- Clone DLL
+- LRU Cache
+- Swap Nodes in Pair - LC : 24
+
+
+

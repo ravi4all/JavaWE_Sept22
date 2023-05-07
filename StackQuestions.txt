@@ -1,0 +1,23 @@
+Stack Data Structure
+
+LIFO - Last In First Out
+
+Uses of Stack
+- Call Stack
+- Undo operation
+- browser back button
+
+- CRUD of Stack
+- Balanced Parantheses
+- Implement 2 stack using array
+- KStack
+- Stock Span
+- Previous Greater Element
+- Previous Smaller Element
+- Next Greater Element
+- Next Smaller Element
+- Histogram Problem
+- Infix to Postfix
+    ex : a+b
+    op : ab+
+
