@@ -32,10 +32,31 @@ public class InfixToPostfix {
                 st.push(c);
             }
             else if(c == ')') {
-
+                while(!st.isEmpty() && st.peek() != '(') {
+                    result += st.pop();
+                }
+                if(!st.isEmpty() && st.peek() != '(') {
+                    return "Invalid Expression";
+                }
+                else {
+                    st.pop();
+                }
             }
             else {
                 // Check precendence and store
+                while(!st.isEmpty() && precedence(c) <= precedence(st.peek())) {
+                    if(st.peek() == '(') {
+                        return "Invalid Expression";
+                    }
+                    result += st.pop();
+                }
+            }
+
+            while(!st.isEmpty()) {
+                if(st.peek() == '(') {
+                    return "Invalid Expression";
+                }
+                result += st.pop();
             }
 
         }
