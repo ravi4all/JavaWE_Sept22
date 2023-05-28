@@ -1,0 +1,26 @@
+Binary Tree
+
+- binary tree cannot have more than 2 children
+- it can have 0,1 or 2 child
+
+- Used in machine learning known as decision tree
+- Expression evaluation
+    3 + ((5+9) * 2)
+
+- tree is a collection of nodes
+- node contains 3 things
+    - left child
+    - data
+    - right child
+
+- Tree CRUD
+
+Tree Traversal
+- Breadth First / Level Order - traverse tree level by level
+- Depth First   - complete first side then other other side
+    - InOrder   - LPR - Left Parent Right
+    - PreOrder  - PLR - Parent Left Right
+    - PostOrder - LRP - Left Right Parent
+
+
+
