@@ -1,0 +1,31 @@
+DP - Dynamic Programming
+
+- Entirely depends on Recursion
+
+Fibonacci Series
+0,1,1,2,3,5,8,13,21...
+
+Problems with Recursion
+- Overlapping sub problem
+- Substructure property
+    f(n) = f(n-1) + f(n-2)
+
+DP Solutions
+- Memoization   - Top Down
+- Tabulation    - Bottom Up
+
+Fibonacci Series
+Dice count : LC - 1155
+Climbing Stairs : LC - 70
+LCS - Longest Common SubSequence : LC - 1143
+Knapsack
+MCP - Min Cost Path : LC - 64   - HW
+Coin Change Problem : LC - 322  - HW
+    i/p : coins[] = {2,3,5,6}, target = 10
+    o/p : 5*5 = 2 coins
+    i/p : coins[] = {9,6,5,1}, target = 13
+    o/p : 6*2 + 1 = 3 coins
+LIS - Longest Increasing SubSequence : LC - 300 - HW
+Subset Sum
+Edit Distance - Leetcode : 72
+Pascal Triangle
