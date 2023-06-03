@@ -22,5 +22,14 @@ Tree Traversal
     - PreOrder  - PLR - Parent Left Right
     - PostOrder - LRP - Left Right Parent
 
-
+Recursion
+Iterative
+Height of tree
+Count Nodes of a tree
+Maximum element in a binary tree - HW
+Left View
+Right View - HW
+Top View
+Bottom View
+Diagonal View
 

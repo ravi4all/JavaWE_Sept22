@@ -2,6 +2,7 @@ package Tree;
 
 import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.Stack;
 
 class BinaryTree<T> {
     T data;
@@ -61,6 +62,33 @@ public class TreeOperations {
         preOrder(root.leftChild);
         preOrder(root.rightChild);
         System.out.println(root.data);
+    }
+
+    void preOrderIterative(BinaryTree<Integer> root) {
+        // Root, Left, Right
+        /*
+         * 1. Create Empty Stack
+         * 2. Push root node in stack
+         * 3. while stack is not empty
+         * 4. pop node from stack & print in
+         * 5. if right child is not null then push in stack
+         * 6. push left child if stack is not null
+         */
+        if(root == null) {
+            return;
+        }
+        Stack<BinaryTree<Integer>> st = new Stack<>();
+        BinaryTree<Integer> currentNode = root;
+        while(!st.isEmpty() || currentNode != null) {
+            if(!st.isEmpty() && currentNode == null) {
+                currentNode = st.pop();
+            }
+            System.out.println(currentNode.data);
+            if(currentNode.rightChild != null) {
+                st.push(currentNode.rightChild);
+            }
+            currentNode = currentNode.leftChild;
+        }
     }
 
     void levelOrder(BinaryTree<Integer> root) {
