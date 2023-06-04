@@ -29,7 +29,15 @@ Count Nodes of a tree
 Maximum element in a binary tree - HW
 Left View
 Right View - HW
-Top View
-Bottom View
-Diagonal View
-
+Vertical Order Traversal
+Top View - HW
+Bottom View - HW
+Diagonal View - HW
+Boundary Traversal - HW
+Children Sum Property
+Construct Sum Tree
+Check for Balance Tree - HW
+    - height diff b/w left sub tree and right sub tree not more than 1,
+    than it is a Balance tree
+Spiral Tree - HW
+Ancestor of a node - HW
