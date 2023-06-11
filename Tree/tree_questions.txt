@@ -37,7 +37,32 @@ Boundary Traversal - HW
 Children Sum Property
 Construct Sum Tree
 Check for Balance Tree - HW
-    - height diff b/w left sub tree and right sub tree not more than 1,
-    than it is a Balance tree
-Spiral Tree - HW
+    - height diff b/w left sub tree and right sub tree not more than 1, than it is a Balance tree
+Spiral Tree
 Ancestor of a node - HW
+Diameter of tree / Longest width
+- Longest Path b/w 2 leaf nodes
+- Build using only one function - HW
+
+LCA - Lowest Common Ancestor
+- Using 2 array
+- Without using any array
+
+Mirror a binary tree
+Identical Trees
+- given 2 Trees
+- check if both trees are Identical
+
+Construct binary tree using Inorder and PreOrder
+- i/p : in[] = {20,10,30}, pre[] = {10,20,30}
+- i/p : in[] = {40,20,50,10,30,80,70,90}
+
+=========================================
+BST - Binary Search Tree
+- inspired from binary search
+- your root is like a mid element and on left side we have low elements and 
+on right side we have high elements
+
+Insert Node
+Search Node
+Remove Node
